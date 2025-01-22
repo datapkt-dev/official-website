@@ -45,15 +45,26 @@
             </div>
         </section>
         <section class="news" id="news">
-            <img src="images/hotel2.png" alt="新竹光復館">
+            <!-- 將 <img> 替換或與 <video> 並存 -->
+            <!-- 如果要保持與原本圖片一樣的寬度，可用 CSS 做相同寬度設定 -->
+            <video width="50%" autoplay 
+            muted 
+            loop 
+            playsinline
+            controls>
+                <source src="images/mylo.mp4" type="video/mp4">
+                <!-- 也可以加入其他格式作為備用 -->
+                <!-- <source src="your-video-file.webm" type="video/webm"> -->
+                您的瀏覽器不支援 HTML5 影片播放。
+            </video>
             <div class="info">
-                <h2>5月1日新竹光復館隆重開張！</h2>
-                <p>訂房入住享受悠閒時光，早餐區座位點心無限供應，<br>
-                    即日起來店消費在IG打卡，下一次享受85折訂房優惠！</p>
+                <h2>Rencoo租屋管理系統3/20正式發佈！</h2>
+                <p>包租、代管業者與房東的福音來了!<br>
+                    網頁後台與APP無紙化控管合約、每月帳務、物件</p>
             </div>
         </section>
         <section class="pricing" id="pricing">
-            <h2>房型價目表</h2>
+            <h2>服務價目表</h2>
             <table>
                 <thead>
                     <tr>
@@ -94,7 +105,7 @@
         </section>
     </main>
     <footer>
-        <p>Copyright © 2024 聯成商旅 All Rights Reserved.</p>
+        <p>Copyright © 2025 口袋數據科技有限公司 All Rights Reserved.</p>
     </footer>
     <script>
         document.querySelectorAll('a.nav-link').forEach(anchor => {

@@ -75,6 +75,7 @@ header a:hover {
 .banner p {
     position: relative;
     z-index: 2; /* 確保文字在半透明背景之上 */
+    font-size: 50px;
 }
 
 .banner a {
